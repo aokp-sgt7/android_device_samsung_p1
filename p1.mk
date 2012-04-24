@@ -68,7 +68,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
        ro.telephony.ril.v3=icccardstatus,datacall,signalstrength,facilitylock \
        ro.ril.enable.managed.roaming=1 \
        ro.ril.oem.nosim.ecclist=911,112,999,000,08,118,120,122,110,119,995 \
-       ro.ril.emc.mode=2
+       ro.ril.emc.mode=2 \
+       ro.sf.lcd_density=160
+
 
 # Inherit P1 common device configuration.
 $(call inherit-product, device/samsung/p1-common/device_base.mk)
