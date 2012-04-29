@@ -23,11 +23,27 @@ import edify_generator
 class EdifyGenerator(edify_generator.EdifyGenerator):
     def AssertDevice(self, device):
       edify_generator.EdifyGenerator.AssertDevice(self, device)
+      self.script.append('ui_print("-------------------------------------- --- -- -");')
+      self.script.append('ui_print(":: AOKP ICS for SGT7 GSM - build by stimpz0r ::");')
+      self.script.append('ui_print("- -- --- --------------------------------------");')
+      self.script.append('ui_print("AOKP by TeamKang, ICS SGT7 device/vendor by SGT7 ICS TE4M");')
+      self.script.append('ui_print("small modifications and changes to make it all work together by me");')
+      self.script.append('ui_print("CREDIT TO TeamKang / SGT7 ICS TE4M, it wouldnt be possible without them!!");')
+      self.script.append('ui_print("");')
+      self.script.append('ui_print("-- this version based on AOKP build 34 (Android 4.0.4).");')
+      self.script.append('ui_print("");')
+      self.script.append('ui_print("*** WARNING *** WARNING *** THIS BUILD IS MTD *** WARNING *** WARNING ***");')
+      self.script.append('ui_print("");')
+      self.script.append('ui_print("IF YOU HAVE NOT READ AND FOLLOWED THE WARNINGS AND DIRECTIONS ON THE FORUM(S) ABOUT MTD");')
+      self.script.append('ui_print("YOU CAN CAUSE SERIOUS DAMAGE TO YOUR TABLET BY FLASHING THIS!!! YOU HAVE BEEN WARNED!");')
+      self.script.append('ui_print("");')
+      self.script.append('ui_print("*** WARNING *** WARNING *** THIS BUILD IS MTD *** WARNING *** WARNING ***");')
+      self.script.append('ui_print("");')
       self.script.append('show_progress(0.15, 5);');
       self.script.append(
             ('package_extract_file("modem.bin", "/tmp/modem.bin");\n'
              'set_perm(0, 0, 0777, "/tmp/modem.bin");'))
-      self.script.append('ui_print("Checking state of BML/MTD...");')
+      self.script.append('ui_print("(::) checking state of BML/MTD...");')
       self.script.append(
             ('package_extract_file("updater.sh", "/tmp/updater.sh");\n'
              'set_perm(0, 0, 0777, "/tmp/updater.sh");'))
@@ -52,8 +68,8 @@ class EdifyGenerator(edify_generator.EdifyGenerator):
 
       self.script.append('package_extract_file("boot.img", "/tmp/boot.img");')
       self.script.append('assert(run_program("/tmp/updater.sh") == 0);')
-      self.script.append('ui_print("Formatting of MTD complete...");')
-      self.script.append('ui_print("Installing system...");')
+      self.script.append('ui_print("(::) formatting of MTD complete...");')
+      self.script.append('ui_print("(::) installing system...");')
 
     def RunBackup(self, command):
       edify_generator.EdifyGenerator.RunBackup(self, command)
