@@ -30,7 +30,7 @@ class EdifyGenerator(edify_generator.EdifyGenerator):
       self.script.append('ui_print("small modifications and changes to make it all work together by me");')
       self.script.append('ui_print("CREDIT TO TeamKang / SGT7 ICS TE4M, it wouldnt be possible without them!!");')
       self.script.append('ui_print("");')
-      self.script.append('ui_print("-- this version based on AOKP build 34 (Android 4.0.4).");')
+      self.script.append('ui_print("-- this version based on AOKP MILESTONE #5 (Android 4.0.4).");')
       self.script.append('ui_print("");')
       self.script.append('ui_print("*** WARNING *** WARNING *** THIS BUILD IS MTD *** WARNING *** WARNING ***");')
       self.script.append('ui_print("");')
