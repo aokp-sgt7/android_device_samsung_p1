@@ -30,14 +30,7 @@ class EdifyGenerator(edify_generator.EdifyGenerator):
       self.script.append('ui_print("small modifications and changes to make it all work together by me");')
       self.script.append('ui_print("CREDIT TO TeamKang / SGT7 ICS TE4M, it wouldnt be possible without them!!");')
       self.script.append('ui_print("");')
-      self.script.append('ui_print("-- this version based on AOKP MILESTONE #5 (Android 4.0.4).");')
-      self.script.append('ui_print("");')
-      self.script.append('ui_print("*** WARNING *** WARNING *** THIS BUILD IS MTD *** WARNING *** WARNING ***");')
-      self.script.append('ui_print("");')
-      self.script.append('ui_print("IF YOU HAVE NOT READ AND FOLLOWED THE WARNINGS AND DIRECTIONS ON THE FORUM(S) ABOUT MTD");')
-      self.script.append('ui_print("YOU CAN CAUSE SERIOUS DAMAGE TO YOUR TABLET BY FLASHING THIS!!! YOU HAVE BEEN WARNED!");')
-      self.script.append('ui_print("");')
-      self.script.append('ui_print("*** WARNING *** WARNING *** THIS BUILD IS MTD *** WARNING *** WARNING ***");')
+      self.script.append('ui_print("-- this version based on AOKP BUILD #35 (Android 4.0.4).");')
       self.script.append('ui_print("");')
       self.script.append('show_progress(0.15, 5);');
       self.script.append(
