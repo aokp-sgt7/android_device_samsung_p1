@@ -26,11 +26,10 @@ class EdifyGenerator(edify_generator.EdifyGenerator):
       self.script.append('ui_print("-------------------------------------- --- -- -");')
       self.script.append('ui_print(":: AOKP ICS for SGT7 GSM - build by stimpz0r ::");')
       self.script.append('ui_print("- -- --- --------------------------------------");')
-      self.script.append('ui_print("AOKP by TeamKang, ICS SGT7 device/vendor by SGT7 ICS TE4M");')
-      self.script.append('ui_print("small modifications and changes to make it all work together by me");')
-      self.script.append('ui_print("CREDIT TO TeamKang / SGT7 ICS TE4M, it wouldnt be possible without them!!");')
+      self.script.append('ui_print("AOKP by TeamKang, ICS SGT7 device/vendor/kernel by SGT7 ICS TE4M");')
+      self.script.append('ui_print("put together and modified by stimpz0r");')
       self.script.append('ui_print("");')
-      self.script.append('ui_print("-- this version based on AOKP BUILD #37 (Android 4.0.4).");')
+      self.script.append('ui_print("-- this version based on AOKP BUILD #38 (Android 4.0.4).");')
       self.script.append('ui_print("");')
       self.script.append('show_progress(0.15, 5);');
       self.script.append(
