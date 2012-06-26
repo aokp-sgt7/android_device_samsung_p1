@@ -63,7 +63,6 @@ PRODUCT_COPY_FILES += \
 
 # Device-specific packages
 PRODUCT_PACKAGES += \
-	P1Parts \
 	SamsungServiceMode
 
 # Build.prop overrides
