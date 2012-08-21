@@ -18,10 +18,10 @@ ifeq ($(TARGET_DEVICE),p1)
   include $(call all-makefiles-under,$(LOCAL_PATH))
 endif
 
-ifeq ($(TARGET_DEVICE),p1l)
-  include $(call all-makefiles-under,$(LOCAL_PATH))
-endif
+#ifeq ($(TARGET_DEVICE),p1l)
+#  include $(call all-makefiles-under,$(LOCAL_PATH))
+#endif
 
-ifeq ($(TARGET_DEVICE),p1n)
-  include $(call all-makefiles-under,$(LOCAL_PATH))
-endif
+#ifeq ($(TARGET_DEVICE),p1n)
+#  include $(call all-makefiles-under,$(LOCAL_PATH))
+#endif
