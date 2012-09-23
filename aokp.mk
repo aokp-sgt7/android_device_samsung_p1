@@ -6,8 +6,8 @@
 # Inherit CM stuff
 # --------------------------------------------------------------------------------
 
-$(call inherit-product, vendor/aokp/config/gsm.mk)
-$(call inherit-product, vendor/aokp/config/common_tablet.mk)
+$(call inherit-product, vendor/aokp/configs/gsm.mk)
+$(call inherit-product, vendor/aokp/configs/common_tablet_small.mk)
 
 # --------------------------------------------------------------------------------
 # Inherit device configuration
