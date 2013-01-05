@@ -39,7 +39,7 @@ class EdifyGenerator(edify_generator.EdifyGenerator):
       self.script.append('ui_print(";;[ . . A O K P - S G T 7 ];;; ,c$$$$*`,cS$$Sc,*$$$$$*,c$$$c,");')
       self.script.append('ui_print(";;[ ;;;;;;;;; by stimpz0r ];;; $$; ;;; $$ ;; $$  $$ ;;;;;;`$$");')
       self.script.append('ui_print(";;[                       ];;;,`*$$$Sc,*$,,,,$$  $$ ;;;;;; $$");')
-      self.script.append('ui_print(";;[ MTD * JELLYBEAN 4.1.1 ];;;``    ;$$ `````$$  $$ ;;;;;; $$");')
+      self.script.append('ui_print(";;[ MTD * JELLYBEAN 4.1.2 ];;;``    ;$$ `````$$  $$ ;;;;;; $$");')
       self.script.append('ui_print(";;[    GSM (GT-P1000/L/N) ];;;,`*$$$$*`ccS$$$*`, $$ ;;;;;; $$");')
       self.script.append('ui_print("- --- ---------------------------------------------------- *$");')
       self.script.append('ui_print("(::) AOKP (Android Open Kang Project) by TeamKang");')
