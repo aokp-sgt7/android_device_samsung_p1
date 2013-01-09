@@ -1,7 +1,7 @@
 #!/tmp/busybox sh
 
 HW=$(cat /proc/cpuinfo | grep Hardware | sed s/Hardware// | tr '[A-Z]' '[a-z]' | tr -d ' ' | tr -d ':' | tr -d '\t')
-DEVICE=$(cat /default.prop | grep ro.cm.device | sed s#ro\.cm\.device=## | tr '[A-Z]' '[a-z]')
+DEVICE=$(cat /default.prop | grep ro.aokp.device | sed s#ro\.aokp\.device=## | tr '[A-Z]' '[a-z]')
 
 case $HW in
 p1|gt-p1000)
