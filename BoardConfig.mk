@@ -25,6 +25,9 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 477626368
 
 BOARD_CUSTOM_BOOTIMG_MK := device/samsung/p1/shbootimg.mk
 
+TARGET_KERNEL_SOURCE := kernel/samsung/p1
+TARGET_KERNEL_CONFIG := cyanogenmod_p1_defconfig
+
 TARGET_OTA_ASSERT_DEVICE := GT-P1000,GT-P1000L,GT-P1000N,galaxytab,p1,p1l,p1n
 
 #BOARD_USES_HDMI := true
