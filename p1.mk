@@ -90,19 +90,9 @@ PRODUCT_COPY_FILES += \
 # set recovery.fstab location (needed for p1l & p1n products)
 TARGET_RECOVERY_FSTAB := device/samsung/p1/recovery.fstab
 
-# Galaxy Tab uses high-density artwork where available
-PRODUCT_LOCALES += hdpi
-
-# Screen size is "large" 7'tablet, density is "hdpi"
-PRODUCT_AAPT_CONFIG := large hdpi
-
 # --------------------------------------------------------------------------------
 # define common P1 product settings
 # --------------------------------------------------------------------------------
-
-# set here product definitions that valid for all p1 products
-PRODUCT_BRAND := samsung
-PRODUCT_MANUFACTURER := samsung
 
 # Set build fingerprint / ID / product name etc.
 PRODUCT_BUILD_PROP_OVERRIDES += \
