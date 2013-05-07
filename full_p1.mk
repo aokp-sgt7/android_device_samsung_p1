@@ -6,6 +6,6 @@ PRODUCT_BRAND := samsung
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_MODEL := GT-P1000
 
-TARGET_KERNEL_SOURCE := kernel/samsung/p1
+TARGET_KERNEL_SOURCE := kernel/samsung/aries
 TARGET_KERNEL_CONFIG := cyanogenmod_p1_defconfig
 
